@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Lab1_2</string>
+    <string name="app_name">Recipe app</string>
+    <string name="show_hide_recipe">Show/Hide recipe</string>
+    <string name="pancake">pancake</string>
+    <string name="ingredients">2 1/2 dl flour\n1/2 tsp salt\n6 dl milk\n3 egg\nbutter (for frying)\njam, berries or fruit for serving</string>
+    <string name="directions">1) Mix flour and salt in a bowl. Whisk in the milk and eggs.\n2) Fry thin pancakes in a little butter.\n3) Serve with jam, berries or fruit.</string>
+    <string name="ingredients_heading">INGREDIENTS</string>
+    <string name="image_desc_pancake">This is a pancake</string>
+    <string name="directions_header">DIRECTIONS</string>
+    <string name="button_show_recipe">Show Recipe</string>
+    <string name="button_hide_recipe">Hide Recipe</string>
 </resources>

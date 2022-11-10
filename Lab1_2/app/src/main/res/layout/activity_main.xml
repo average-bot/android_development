@@ -4,15 +4,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ECE4DA"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/layout_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:orientation="vertical"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageView_Pancakes"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:contentDescription="@string/image_desc_pancake"
+            app:srcCompat="@drawable/pancakes"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_ingredients"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <TextView
+                    android:id="@+id/textView_IngredientsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="@string/ingredients_heading"
+                    android:textAlignment="textStart"
+                    android:textColor="#E65100"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_IngredientsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:singleLine="false"
+                    android:text="@string/ingredients"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_directions"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <TextView
+                    android:id="@+id/textView_DirectionsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="@string/directions_header"
+                    android:textAlignment="textStart"
+                    android:textColor="#E65100"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_DirectionsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="@string/directions"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_showRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#BA2327"
+            android:fontFamily="casual"
+            android:onClick="viewRecipe"
+            android:text="@string/button_show_recipe"
+            android:textColor="#FFCE6C"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
