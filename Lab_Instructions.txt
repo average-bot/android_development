@@ -1,0 +1,6 @@
+The video should not be more than 5 minutes.
+You can talk about the code;
+- what classes, methods libraries have you used to develop the applications.
+- how are the lifecyce methods behaving when we turn he device to landscape mode?
+- how about the UI, have you develop it through the code or xml? where do you handle the button click- in the code or in the xml?
+- present if there was any issues and was the slutions?
