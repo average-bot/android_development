@@ -1,0 +1,52 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@android:color/transparent"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".questions.BertActivity">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".questions.BertActivity">
+
+            <TextView
+                android:id="@+id/textView_QuestionnaireQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/question_here" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_QuestionnaireInput"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:gravity="top"
+                android:hint="@string/default_edit_text"
+                android:textColorHint="#757575" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_QuestionnaireSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/classify_btn_text" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

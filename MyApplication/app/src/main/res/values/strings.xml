@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">myMental</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mental_health">Mental health is very important. By having good sleep, food, stress-levels and relationship with alcohol you are keeping yourself healthy.</string>
+    <string name="question">Question?</string>
+    <string name="answer">Answer</string>
+    <string name="default_edit_text">Please enter your answer.</string>
+
+
+    <string name="classify_btn_text">Submit</string>
+    <string name="result_display_text">%1$s (%2$f)</string>
+    <string name="question_here">Question here</string>
+</resources>

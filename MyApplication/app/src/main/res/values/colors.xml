@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_700">#BE76CC</color> <!--wifi,time,etc bar-->
+    <color name="teal_200">#FFFFFFFF</color>
+    <color name="teal_700">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_200">#BE76CC</color> <!--text in questions, home-->
+    <color name="purple_500">#BE76CC</color> <!--myapplication box-->
+    <color name="main_background">#EEF1EA</color>
+    <color name="home_item">#FFFFFF</color>
+    <color name="tab">#E9BDF2</color>
+    <color name="question_item">#FFFFFF</color>
+</resources>
