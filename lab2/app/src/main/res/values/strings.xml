@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TFLite Text Classification</string>
+
+    <string name="classify_btn_text">Classify</string>
+    <string name="default_edit_text">Your text here please.</string>
+
+    <string name="result_display_text">%1$s (%2$f)</string>
+</resources>
